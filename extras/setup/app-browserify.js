@@ -25,7 +25,7 @@
 // -- if using TemplateView, uncomment the following three lines
 // var $ = require("jquery")
 // var _ = require("lodash")
-// var TemplateView = require("./TemplateView.js").TemplateView(Backbone, _, $)
+// (typeof Parse !== "object" ? Parse : Backbone).TemplateView = require("./TemplateView.js").TemplateView(Backbone, _, $)
 //
 //////////////////////////////////////////////////
 
