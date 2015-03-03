@@ -49,11 +49,12 @@
 
 > Houston / medical / oil & gas / energy specific
 - http://www.biospace.com/jobs/search-results.aspx/
-- http://www.memorialhermann.org/careers/career-search/ (search developer, etc)
+- http://www.memorialhermann.org/careers/career-search/ (search developer or analyst or engineer)
 - http://careers.texasmedicalcenter.org/careers
 - http://www.houstonmethodistcareers.org/jobs/?schedule=full-time&search_term=developer
 - https://sjobs.brassring.com/TGWebHost/home.aspx?partnerid=25765&siteid=5038 (search listing, select Information Technology category)
-- https://ch.tbe.taleo.net/CH12/ats/careers/jobSearch.jsp?org=BCM&cws=1 (again, select Job Category as Information Technology)
+- https://ch.tbe.taleo.net/CH12/ats/careers/jobSearch.jsp?org=BCM&cws=1 ( Baylor College of Medicine, again, select Job Category as Information Technology)
+- https://sleh.taleo.net/careersection/external/jobsearch.ftl?lang=en (St. Luke's, search for develepor, analyst, or engineer)
 
 # Creative / Agency specific job listings
 - http://www.thefwa.com/jobs
