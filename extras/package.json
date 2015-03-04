@@ -50,7 +50,7 @@
         "backbone": "latest",
         "express": "latest",
         "jquery": "latest",
-        "jsnox": "latest",
+        "jsnox": "^1.0.0",
         "lodash": "latest",
         "parse": "latest",
         "react": "latest",
