@@ -54,12 +54,15 @@ See [The Final Project document](./final-project.md).
 
 ## After class ends
 
-Learn server-side programming, too. Choose one:
+Learn server-side JS (Node.js) and other JS concepts with these CLI (command line interface) workshops: http://nodeschool.io/#workshoppers
 
-1. Learn server-side JS (Node.js); the framework Express is built on JS
-- Learn PHP; the framework Symfony is built on PHP; Wordpress is also built on PHP
-- Learn Python; the framework Django is built on Python
-- Learn Ruby; the framework Rails is built on Ruby
+> Install them with npm (i.e. `npm install -g learnyounode`)
+
+Learn another language. Choose one based on a job description you want to feel more qualified for:
+
+1. Learn PHP; the frameworks Symfony, Wordpress, Drupal, and Laravel are built on PHP
+- Learn Python; the frameworks Django and Flask are built on Python
+- Learn Ruby; the frameworks Rails and Middleman are built on Ruby
 - Learn C# (pronounced "C-sharp"); the framework ASP.NET MVC 4.5 is built on C#
 
 > ... you will be looking for those next steps. Check out the following ideas:
@@ -67,6 +70,14 @@ Learn server-side programming, too. Choose one:
 - Practice interview questions: 
     + https://github.com/PROSPricing/js-assessment/tree/master/app
     + https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/README.md
+- Read some books:
+    + [The Pragmatic Programmer](https://pragprog.com/book/tpp/the-pragmatic-programmer)
+    + [Practices of an Agile Developer](https://pragprog.com/book/pad/practices-of-an-agile-developer)
+    + [Seven Databases in Seven Weeks](https://pragprog.com/book/rwdata/seven-databases-in-seven-weeks)
+    + [Seven Web Frameworks in Seven Weeks](https://pragprog.com/book/7web/seven-web-frameworks-in-seven-weeks)
+    + [Seven Languages in Seven Weeks](https://pragprog.com/book/btlang/seven-languages-in-seven-weeks)
+    + [Seven More Languages in Seven Weeks](https://pragprog.com/book/7lang/seven-more-languages-in-seven-weeks)
+    + [Free Programming Books - Github](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md)
 - Blog about topics relative to [being a JS developer](./extras/blogging-topics.md)
 - Setup an RSS feed reader (like http://feedly.com) to automatically collect articles from the following:
     - HackerNewsList,
