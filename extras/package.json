@@ -21,7 +21,7 @@
         "postinstall": "[ ! -d scss ] && mkdir scss; [ ! -d dist ] && mkdir dist; [ ! -d js ] && mkdir js; [ ! -d templates ] && mkdir templates; [ ! -d js/test ] && mkdir js/test; [ ! -f js/app.js ] && npm run finish-commits && npm run prereqs; echo 'doneskis';",
         "finish-commits": "if [ ! -e '.git' ]; then git init; fi; git add --all . && git commit -am 'initial commit, project setup complete'; git branch gh-pages; echo 'commits finished';",
         "prereqs": "npm run bower; npm run copy_files; npm run heroku:server && npm run heroku:loader && npm run heroku:procfile && npm run ignores; npm run prereqs:appjs; npm run prereqs:app-browserify-js; npm run prereqs:index; npm run prereqs:scss; npm run prereqs:mainjs; npm run prereqs:personjs; npm run prereqs:templateviewjs; echo '' >> dist/app-browserify.js; echo '' >> dist/style.css; npm run post-commit;",
-        "bower": "bower install normalize-scss pace typeplate-starter-kit jquery lodash pathjs Loader backbone react parse-js-sdk materialize bootstrap-sass --save;",
+        "bower": "bower install normalize-scss pace typeplate-starter-kit jquery lodash Loader backbone react parse-js-sdk materialize --save;",
         "copy_files": "cp -rf ./node_modules/jsnox/ ./bower_components/jsnox; cp ./bower_components/typeplate-starter-kit/css/typeplate.css ./bower_components/typeplate-starter-kit/css/_typeplate.scss;",
         "prereqs:appjs": "curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Engineering/Notes-Jan-2015/master/extras/setup/app.js --retry 5 > ./js/app.js",
         "prereqs:app-browserify-js": "curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Engineering/Notes-Jan-2015/master/extras/setup/app-browserify.js --retry 5 > ./js/app-browserify.js",
@@ -54,24 +54,22 @@
         "parse": "latest",
         "react": "latest",
         "react-tap-event-plugin": "latest",
-        "autoprefixer": "latest",
-        "babelify": "latest",
-        "browserify": "latest",
+
         "mocha": "latest",
         "chai": "latest",
-        "cssmin": "latest",
-        "csso": "latest",
+
+        "node-sass": "latest",
         "autoprefixer": "latest",
-        "jshint": "latest",
-        "node-sass": "latest",
+        "csso": "latest",
+
         "parallelshell": "latest",
-        "uglify-js": "latest",
         "watch": "latest",
-        "node-sass": "latest",
-        "parallelshell": "latest",
         "request": "latest",
-        "uglifyify": "^3.0.1",
-        "watchify": "^2.4.0"
+
+        "browserify": "latest",
+        "babelify": "latest",
+        "watchify": "^2.4.0",
+        "uglifyify": "^3.0.1"
     },
     "author": "The Iron Yard Front End studentz",
     "license": "MIT"
