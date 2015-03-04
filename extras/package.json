@@ -7,10 +7,9 @@
         "build-all:css": "node-sass ./scss/**.scss -o ./dist",
         "build:css": "node-sass ./scss/style.scss --stdout | autoprefixer -b 'last 10 versions' > ./dist/style.css; [ -f ./dist/style.css ] && csso ./dist/style.css ./dist/style.css; tput bel; echo '--------- sassified.'",
         "watch:css": "watch 'npm run build:css' ./scss/",
-        "build:js": "browserify ./js/app-browserify.js -t babelify | uglifyjs > ./dist/app-browserify.js; tput bel; echo '--------- browserified';",
         "test": "mocha ./js/test/; echo '----- tests done';",
         "lint": "jshint ./js/**.js; echo '----- linting done';",
-        "watch:js": "watch 'npm run build:js' ./js/",
+        "watchify:js": "watchify ./js/app-browserify.js -t babelify -t uglifyify -o ./dist/app-browserify.js",
         "build": "npm run build:css",
         "watch": "parallelshell 'npm run watch:css' 'npm run watch:js'",
         "start": "node heroku-server.js & npm run watch",
@@ -70,7 +69,9 @@
         "watch": "latest",
         "node-sass": "latest",
         "parallelshell": "latest",
-        "request": "latest"
+        "request": "latest",
+        "uglifyify": "^3.0.1",
+        "watchify": "^2.4.0"
     },
     "author": "The Iron Yard Front End studentz",
     "license": "MIT"
