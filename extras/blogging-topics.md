@@ -1,5 +1,6 @@
 ## CSS Blogging Topics
 
+- read and reflect on Mary Rose Cook's "Intro to Practical Functional Programming" (http://maryrosecook.com/blog/post/a-practical-introduction-to-functional-programming)
 - What is the difference between classes and ID's in CSS?
 - Describe what a "reset" CSS file does and how it's useful.
 - Describe Floats and how they work.
