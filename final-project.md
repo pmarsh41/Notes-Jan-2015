@@ -2,11 +2,11 @@
 
 > Also called the *Capstone Projects*
 
-This is going to be a large project that you will carry out **BY YOURSELF OR WITH A RAILS STUDENT** to show off on Demo Day (Friday, December 12th).
+This is going to be a large project that you will carry out **BY YOURSELF OR WITH A RAILS STUDENT** to show off on Demo Day.
 
 ## Requirements:
 
-- You must either do the project **BY YOURSELF OR WITH A RAILS STUDENT**. If you partner with a Rails student.
+- You must either do the project **BY YOURSELF OR WITH A RAILS STUDENT**.
 - You must make regular commits each day (atleast 30 commits throughout the 3 week period).
 - You must have tests written for your project.
 - You must use a script loader (like `loader.js` and `require.js`), or `browserify`.
@@ -34,7 +34,7 @@ This is going to be a large project that you will carry out **BY YOURSELF OR WIT
 
 Start thinking about final projects a week ahead of time, and meet with your instructor if you're devoid of ideas. 
 
-Make your projects are centered around things you truly care about; bee-keeping, beer, dancing, hiking, basketball, etc. This makes a huge difference and can make the project a lot of fun.
+Make your projects centered around things you truly care about; bee-keeping, beer, dancing, hiking, basketball, etc. This makes a huge difference and can make the project a lot of fun.
 
 ## Ask your peers for feedback
 
