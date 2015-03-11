@@ -4,7 +4,7 @@
 # Socially curated lists of jobs
 > mixed (remote and in-person)
 - http://hnhiring.me/
-- https://www.facebook.com/groups/houstondigitaljobs/ (Housotn Digital Jobs)
+- https://www.facebook.com/groups/houstondigitaljobs/ (Houston Digital Jobs)
 - https://www.facebook.com/groups/437880809643302/ (Houston Freelancers)
 - https://www.facebook.com/groups/houstonprogrammers/ (Houston Programmers)
 
