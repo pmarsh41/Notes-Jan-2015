@@ -47,30 +47,26 @@
         "js"
     ],
     "dependencies": {
-        "backbone": "latest",
-        "express": "latest",
-        "jquery": "latest",
+        "autoprefixer": "^5.1.0",
+        "babel": "^4.7.8",
+        "babelify": "^5.0.4",
+        "backbone": "^1.1.2",
+        "browserify": "^9.0.3",
+        "chai": "^2.1.1",
+        "csso": "^1.3.11",
+        "express": "^4.12.2",
+        "jquery": "^2.1.3",
         "jsnox": "^1.0.0",
-        "lodash": "latest",
-        "parse": "latest",
-        "react": "latest",
-
-        "mocha": "latest",
-        "chai": "latest",
-
-        "node-sass": "latest",
-        "autoprefixer": "latest",
-        "csso": "latest",
-
-        "parallelshell": "latest",
-        "watch": "latest",
-        "request": "latest",
-
-        "babel": "^4.7.3",
-        "browserify": "latest",
-        "babelify": "latest",
-        "watchify": "^2.4.0",
-        "uglifyify": "^3.0.1"
+        "lodash": "^3.5.0",
+        "mocha": "^2.2.1",
+        "node-sass": "^3.0.0-pre",
+        "parallelshell": "^1.1.1",
+        "parse": "^1.3.5",
+        "react": "^0.13.0",
+        "request": "^2.53.0",
+        "uglifyify": "^3.0.1",
+        "watch": "^0.14.0",
+        "watchify": "^2.4.0"
     },
     "author": "The Iron Yard Front End studentz",
     "license": "MIT"
