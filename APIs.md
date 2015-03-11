@@ -11,6 +11,8 @@ Methods 1 and 2 let JS developers make direct requests from the Browser.
 
 Method 3 is a little harder for us to implement in the browser. Instead, use either a Node.js proxy (like the heroku-server.js file provided with the package.json), or try https://jsonp.nodejitsu.com/.
 
+##### API Search Engine: http://www.publicapis.com/
+
 1. Social APIs
 
     - connect to social APIs with http://adodson.com/hello.js/#install
