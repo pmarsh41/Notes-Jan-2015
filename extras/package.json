@@ -54,7 +54,6 @@
         "lodash": "latest",
         "parse": "latest",
         "react": "latest",
-        "react-tap-event-plugin": "latest",
 
         "mocha": "latest",
         "chai": "latest",
