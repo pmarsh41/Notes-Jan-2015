@@ -11,6 +11,8 @@ Methods 1 and 2 let JS developers make direct requests from the Browser.
 
 Method 3 is a little harder for us to implement in the browser. Instead, use either a Node.js proxy (like the heroku-server.js file provided with the package.json), or try https://jsonp.nodejitsu.com/.
 
+> Need to stub out some JSON data? try http://beta.json-generator.com/
+
 ##### API Search Engine: http://www.publicapis.com/
 
 1. Social APIs
@@ -101,7 +103,7 @@ Method 3 is a little harder for us to implement in the browser. Instead, use eit
     - Paypal - https://developer.paypal.com/docs/api/
     - Snipcart - https://snipcart.com/
     - Gumroad - "Buy button right on your site" - https://gumroad.com/overlay
-        
+
         - also, embed a product widget right on site - https://gumroad.com/embed
         - https://gumroad.com/api
 
@@ -297,6 +299,12 @@ Method 3 is a little harder for us to implement in the browser. Instead, use eit
 - http://youmightnotneedjquery.com/
 - [Modernizr and Polyfills](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills)
 - Micro-libs on [microjs.com](http://microjs.com)
+- FavIcon management in JS: http://lab.ejci.net/favico.js/
+- http://anicollection.github.io/#/
+
+# Isomorphic app frameworks and guides
+
+- http://isomorphic.net/
 
 ---
 
@@ -325,3 +333,8 @@ Method 3 is a little harder for us to implement in the browser. Instead, use eit
 - http://onepagelove.com/
 
 
+**Native Apps**
+
+- nwjs
+- https://www.nativescript.org/
+- appcelerator

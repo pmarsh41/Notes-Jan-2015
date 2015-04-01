@@ -54,6 +54,8 @@ See [The Final Project document](./final-project.md).
 
 ## After class ends
 
+Blog! ~~> http://blog.theironyard.com/2015/02/25/bb-workshop/
+
 Learn server-side JS (Node.js) and other JS concepts with these CLI (command line interface) workshops: http://nodeschool.io/#workshoppers
 
 > Install them with npm (i.e. `npm install -g learnyounode`)
@@ -67,7 +69,7 @@ Learn another language. Choose one based on a job description you want to feel m
 
 > ... you will be looking for those next steps. Check out the following ideas:
 
-- Practice interview questions: 
+- Practice interview questions:
     + https://github.com/PROSPricing/js-assessment/tree/master/app
     + https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/README.md
 - Read some books:
@@ -77,7 +79,7 @@ Learn another language. Choose one based on a job description you want to feel m
     + [Seven Web Frameworks in Seven Weeks](https://pragprog.com/book/7web/seven-web-frameworks-in-seven-weeks)
     + [Seven Languages in Seven Weeks](https://pragprog.com/book/btlang/seven-languages-in-seven-weeks)
     + [Seven More Languages in Seven Weeks](https://pragprog.com/book/7lang/seven-more-languages-in-seven-weeks)
-    + [Free Programming Books - Github](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md)
+    + [Free Programming Books - Github](https://github.com/matthiasak/free-programming-books)
 - Blog about topics relative to [being a JS developer](./extras/blogging-topics.md)
 - Setup an RSS feed reader (like http://feedly.com) to automatically collect articles from the following:
     - HackerNewsList,
@@ -91,7 +93,7 @@ Learn another language. Choose one based on a job description you want to feel m
     - Daily JS,
     - Smashing Magazine,
     - A List Apart
-- Freelance and do side projects. Check out the [job resources list](./examples/extras/job-resources.md) for that. 
+- Freelance and do side projects. Check out the [job resources list](./examples/extras/job-resources.md) for that.
 - Read up on [freelancing in this walkthrough](https://github.com/ericdodds/the-little-freelancer).
 - Apply for freelance work with a distributed team - RyeDev (http://www.ryedev.com/referral/), a group of TIY alum.
 - Participate in hackathons, such as http://hacktoberfe.st

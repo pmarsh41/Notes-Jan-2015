@@ -13,7 +13,7 @@
 // -- when using Backbone, use this line
 // var Backbone = require("backbone")
 // -- when using Parse, comment out the above line and uncomment the line below
-// var Parse = require("parse")
+// var Parse = require("parse").Parse
 //
 // -- when using React (and the plugin JSnoX), uncomment the following two lines
 // var React = require("react")

@@ -65,9 +65,9 @@
     ```js
     var ConstructorName = React.createClass({
         displayName: "SomeName",
-        // properties are provided by the instance 
+        // properties are provided by the instance
         // data passed to the constructor
-        // 
+        //
         // these key-value pairs ensure that properties
         // are of the type defined here:
         propTypes: {
@@ -93,7 +93,7 @@
 
         // custom methods added to this component...
         // given an underscore in the name to denote 'custom'
-        _parseData : function() {}, 
+        _parseData : function() {},
         _onSelect : function() {},
 
         // called by React whenever the state changes
@@ -103,7 +103,7 @@
     ```
 
 - JSnoX (https://github.com/af/JSnoX)
-    
+
     React is written in JavaScript, thus we declare components with JavaScript. This can feel very unnatural, thus Facebook created a terminal tool that converts a hybrid HTML/JS language called JSX into pure JS.
 
     > (See the JSX section at the bottom for more info on JSX.)
@@ -185,7 +185,7 @@
 
     React.render(el, document.body);
     ```
-    
+
 - React Components maintain their own state, just like Backbone Views
 
     ```js
@@ -193,10 +193,10 @@
         displayName: "Timer",
 
         // creates the state object when a component is first created
-        getInitialState: function() { 
+        getInitialState: function() {
             return { s: 0 } // s starts at 0
         },
-        
+
         // called when a component is attached to the DOM
         componentDidMount: function() {
             this.interval = setInterval(this._tick, 1000);
@@ -208,7 +208,7 @@
 
         // custom function, adds one second to the counter
         _tick: function() {
-            // setState() changes the state and re-renders the component, 
+            // setState() changes the state and re-renders the component,
             // works a bit like Backbone.Model's set()
             this.setState({
                 s: this.state.s + 1
@@ -271,11 +271,11 @@
         var Wrapper = React.createClass({
             _alert: function(e){
                 console.log(e);
-                alert(this.refs.yey.getDOMNode().innerText);
+                alert(React.findDOMNode(this.refs.yey).innerText);
             },
             _handleForm: function(e){
                 e.preventDefault();
-                var email = this.refs.email.getDOMNode().value;
+                var email = React.findDOMNode(this.refs.email).value;
                 console.log(email)
             },
             render: function(){
@@ -391,9 +391,11 @@
     - The official React site - http://facebook.github.io/react/
     - React Docs - http://facebook.github.io/react/docs/getting-started.html
     - React Best Tips and Practices - http://aeflash.com/2015-02/react-tips-and-best-practices.html
+    - React Cheatsheet - http://ricostacruz.com/cheatsheets/react.html
+    - React on DevDocs.io - http://devdocs.io/react/
 
 - Closing thoughts
 
     React is terse, short, and simple (once you get past the initial hurdle of learning its API) for composing User Interfaces. It's fast, flexible, and let's us use the same JS code on the client (browser) or server (Node.js) to create an HTML string (Virtual DOM).
-    
+
 
