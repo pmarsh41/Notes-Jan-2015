@@ -191,6 +191,7 @@ Method 3 is a little harder for us to implement in the browser. Instead, use eit
     - online/offline status (http://caniuse.com/online-status)
     - requestAnimationFrame (http://caniuse.com/requestanimationframe)
     - screen orientation API - lock the screen in a particular direction (http://aurelio.audero.it/demo/screen-orientation-api-demo.html) and (http://caniuse.com/screen-orientation)
+    - https://www.talater.com/annyang/
 
 - Interface Patterns and Resources to explore
 

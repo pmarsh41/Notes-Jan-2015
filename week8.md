@@ -393,6 +393,7 @@
     - React Best Tips and Practices - http://aeflash.com/2015-02/react-tips-and-best-practices.html
     - React Cheatsheet - http://ricostacruz.com/cheatsheets/react.html
     - React on DevDocs.io - http://devdocs.io/react/
+    - http://christianalfoni.github.io/javascript/2015/02/06/plant-a-baobab-tree-in-your-flux-application.html
 
 - Closing thoughts
 

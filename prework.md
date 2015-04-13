@@ -12,7 +12,7 @@ What is prework?
 
 **Part 0**
 
-Check the software and accounts you will need in the [Materials sections](#materials). Signup for any accounts that you currently do no have.
+Check the software and accounts you will need in the [Materials sections](./README.md/#materials). Signup for any accounts that you currently do no have.
 
 If you're new to a Mac (or old, even), check out https://www.apple.com/support/macbasics/.
 

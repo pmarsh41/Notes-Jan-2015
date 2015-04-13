@@ -7,7 +7,7 @@ By the end of this week students should be comfortable with:
 
   * HTML/CSS basics
   * basic navigation and tasks in Terminal
-  * using basic Git and GitHub workflows
+  * using basic Git and GitHub workflows (styleguide: https://github.com/agis-/git-style-guide)
   * large PSD-to-semantic-markup-and-css projects (such as Surf and Paddle)
   * pixel perfect work on any layout their given
   * quality documentation and resources (MDN, Stackoverflow, etc.)
@@ -15,6 +15,18 @@ By the end of this week students should be comfortable with:
 ### Week 2 Goals
 By the end of this week students should be comfortable with:
 
+  * start with ES3/5/6/7 map, coffeescript, and CLJS "Solar System"
+    - es3/5/6/7
+    - 3: core
+    - 5: array/object methods
+    - 6: so mayn new things, syntax
+    - 7: async, observe, comprehensions
+    - 8: macros, sweet.js, extensions
+    - to use: transpiler (compatibility), linter (safety), modules (reusability)
+    - MS TypeScript, FB Flow, Google SandScript??? (types, typechecking)
+    - CoffeeScript (moon orbit.. compiles to JS)
+    - Dart (comet orbit ... OOP, imperative)
+    - CLJS (functional, immutable, etc)
   * SCSS syntax, Sass mixins, variable, and functions like `darken` and `lighten`.
   * refactoring plain CSS into well-written SASS
   * using a simple `package.json` and `gulpfile.js` to watch SCSS files for changes and re-pre-compile (or use `sass-watch`)
@@ -98,3 +110,17 @@ By the end of this week students should be comfortable with:
 
 ### Week 10, 11, 12
 The last three weeks are for final projects. Each student will design, build and deploy a major project of their own, using as much tech from the previous nine weeks as possible. Lecture is light and mostly Q&A based on problems students encounter. The rest of the time is spent working on final projects and prepping demos
+
+
+
+
+
+
+
+
+
+
+other stuff:
+------
+
+startups: https://theironyard.teamwork.com/messages/314518#pmp928696

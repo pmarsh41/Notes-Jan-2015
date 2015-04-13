@@ -2,7 +2,7 @@
 
 # Objectives
 
-1. SOLID 
+1. SOLID
 - BDD
 - Backbone
 - Backbone Views
@@ -30,7 +30,7 @@
 - SOLID
 
     > paraphrased from http://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29
-    
+
     1. (S)ingle responsibility principle - write small functions that expect the same input types and return the same output types.
     2. (O)pen/closed principle - use IIFEs around our code, and expose only what we want for modification; our constructors/prototypes should be open for extension, but not open for modification.
     3. (L)iskov subsitution principle - instances of constructors should be replaceable by instances a sub-class and the program's behavior should still be the same. Example: Cat is a subclass of Animal; Animals and Cats can both speak().
@@ -144,7 +144,7 @@
         Backbone.View = function() {/*view constructor*/};
     }).call(this);
     ```
-    
+
 - A quick chat about `Backbone.Router.extend`, `Backbone.View.extend`, `Backbone.Model.extend`
 
     All the above are **constructors**, we can use them to create new instances:
@@ -167,7 +167,7 @@
         // ...
     );
     // → { name: 'fred', employer: 'slate', years: 15 }
-    
+
     _.extend(
         { name: 'fred' },
         { employer: 'slate' },
@@ -191,7 +191,7 @@
     ```
 
 - A Quick Refresher on PubSub
-    
+
     jQuery PubSub just uses jQuery as a mediator (the global object with events) and stores events from all publishers/subscribers on `o`:
 
     ```js
@@ -267,7 +267,7 @@
     A.on("test:hello", function(){ console.log("test:hello") })
 
     A.trigger("test:hello"); //--> "test:hello"
-    A.trigger("test"); 
+    A.trigger("test");
     //--> "test"
     //--> "test:hello"
     ```
@@ -275,13 +275,13 @@
     There is also built-in events that fire when we invoke any Backbone methods:
 
     **model, collection, view, router, and history object events**
-    
+
     Event name  | Arguments passed to event callback | Description
     ------------- | ------------- | -------------
     `all` | event name | triggered when any other event is triggered in Backbone
 
     **collection object events**
-    
+
     Event name  | Arguments passed to event callback | Description
     ------------- | ------------- | -------------
     `add` | model, collection, options | when a model is added to a collection
@@ -349,7 +349,7 @@
         /*Boolean, default is true, a value of false if pushState is true means that browsers that don't support pushState will do a traditional browser reload based on URL pathname.  If pushState is false and hashChange is false then url changes will do a traditional browser reload based on URL pathname. */
         hashChange: false,
 
-        /*String, default is '' and backbone assumes you are serving if from the root url (i.e. /).  A value other than '' is a string path to the directory your application is being server from and the directory Backbone should consider the root directory. */ 
+        /*String, default is '' and backbone assumes you are serving if from the root url (i.e. /).  A value other than '' is a string path to the directory your application is being server from and the directory Backbone should consider the root directory. */
         root:'',
 
         /* Boolean, default is false, a true value means don't run the default route (i.e.''). */
@@ -359,7 +359,7 @@
     ```
 
 - Backbone Views
-    
+
     Grokking:
 
     ```js
@@ -371,13 +371,13 @@
         // remove: function(){}
         render: function(){},
 
-        model: undefined, 
+        model: undefined,
         events: {} || function(){return {}}
-        collection: undefined, 
-        el: '' || function(){return ''} || DOMElement, 
-        id: '', 
-        className: '' || function(){return ''}, 
-        tagName: '' || function(){return ''}, 
+        collection: undefined,
+        el: '' || function(){return ''} || DOMElement,
+        id: '',
+        className: '' || function(){return ''},
+        tagName: '' || function(){return ''},
         attributes: {'attribute':'value','attribute2':'value'}
 
         // event stuff from Backbone.Event
@@ -395,7 +395,7 @@
     v1.el //--> DOM Element
     v1.$el //--> jQuery selection of DOM element above
     v1.setElement(/* DOM element */) //--> sets the el and $el of v1
-    
+
     v1.$(".some #css [type='selector']") //--> selects elements inside the v1 container (el/$el) with jQuery
     v1.render() //--> idempotent render function that should redraw v1's html inside the container (el/$el)
     v1.remove() //--> removes v1 and it's container element from the DOM entirely; also unregisters any event listeners in v1
@@ -404,8 +404,8 @@
     Each Backbone.View has its own `el` (that is not yet on the DOM). When creating a View, we have three choices:
 
     1. let the View automatically create an element off the DOM of type `tagname` (we have to append it to the DOM to be visible)
-    2. let the View Constructor search for an element on the screen 
-        
+    2. let the View Constructor search for an element on the screen
+
         ```js
         var MyView = Backbone.View.extend({
             el: "#some-ID-on-the-DOM"
@@ -518,6 +518,8 @@
     var b = new BodyView;
     ```
 
+    ### Extra resources: subviews (https://github.com/rotundasoftware/backbone.subviews)
+
 - Backbone Models
 
     Grokking:
@@ -535,16 +537,16 @@
         // save: function(){} //--> returns a $.Deferred()
         // destroy: function(){} //--> returns a $.Deferred()
         // parse: function(){}
-        // 
+        //
         // validate: function(){} //--> can be run manually, automatically runs when save() is run, or when using {validate: true} with set()
         // validationError: string
         // isValid: function(){}
         // clone: function(){}
-        // 
+        //
         // has: function(){}
         // unset: function(){}
         // clear: function(){}
-        // 
+        //
         // event stuff from Backbone.Event
         // on: function(event, callback, context)
         // off: function(event, callback, context)
@@ -553,20 +555,20 @@
         // listenTo: function(other object, event, callback)
         // stopListening: function(other object, event, callback)
         // listenToOnce: function(other object, event, callback)
-        // 
+        //
         // toJSON: function(){}
-        // 
+        //
         // You must use the following when manipulating or accessing the model's data.
         // ---
         // get: function(name){}
         // set: function(data, triggers){} //--> optional trigger for setting information ({validate:true} will validate before setting information)
-        // 
+        //
         // hasChanged: function(){} --> returns a boolean
         // changedAttributes: function(){} --> returns a copy of the attributes that recently changed
-        // 
+        //
         // previous: function(){}
         // previousAttributes: function(){}
-        // 
+        //
         // methods from Lodash:
         // ---
         // keys
@@ -575,7 +577,7 @@
         // invert
         // pick
         // omit
-        // 
+        //
         validate: function(attrs, options){},
         initialize: function(options){}
     })
@@ -768,7 +770,7 @@
         parse: function(){}
         // save: function(){} --> Promise
         // toJSON: function(){}
-        // 
+        //
         // ... lots of lodash array and collection methods (26 to be exact)
         // --- such as
         // sort: function(){}
@@ -795,7 +797,7 @@
         // shift: function(){}
         // slice: function(){}
         // length: number
-        // 
+        //
         // event stuff from Backbone.Event
         // on: function(event, callback, context)
         // off: function(event, callback, context)
@@ -804,7 +806,7 @@
         // listenTo: function(other object, event, callback)
         // stopListening: function(other object, event, callback)
         // listenToOnce: function(other object, event, callback)
-        // 
+        //
         // comparator: function(){}
     });
     ```

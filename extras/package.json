@@ -63,7 +63,7 @@
         "parallelshell": "^1.1.1",
         "chokidar-cmd": "^1.1.0",
         "parse": "^1.3.5",
-        "react": "^0.13.0",
+        "react": "^0.13.1",
         "request": "^2.53.0",
         "uglifyify": "^3.0.1",
         "watchify": "^2.4.0"
